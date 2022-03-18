@@ -1,0 +1,98 @@
+.background{
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -9999;
+    margin: 0%;    
+}
+
+.stretch {
+    width: 100%;
+    height: 100%;
+}
+.general {
+    display: grid;
+    justify-items: center;
+}
+.title1 {
+    display: flex;
+    justify-content: center;    
+    font-size: 60px;
+    font-family: Pokemon;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgb(4, 0, 255);
+}
+.title2 {
+    font-size: 30px;
+    color: #eaee10;
+    font-family: Pokemon;
+    text-shadow: 4px 4px 4px rgb(4, 0, 255);
+}
+.form {
+    display: grid;    
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.errLabel {
+    display: grid;
+    justify-content: center;    
+    color: rgb(255, 30, 0);
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    font-size: large;
+    padding: auto;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.select { 
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 15px;
+    background-color: rgba(20, 87, 244, 0.384);
+    border: 1px solid rgb(20, 87, 244);    
+    border-radius: 7px;
+    transition: .3s;
+    font-size: 20px;
+    font-family: Pokemon;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgb(4, 0, 255);
+    appearance: none;
+}
+.select:hover {
+    border: 1px solid rgb(20, 87, 244);    
+    background-color: transparent;
+    color: rgb(244, 46, 20);
+    appearance: none;
+}
+.select:focus {
+    box-shadow: 0px 0px 0px 5px rgba(20, 87, 244, 0.37), 0px 0px 0px 10px rgba(20, 87, 244, 0.38);
+    outline: none;
+}
+.button {
+    background-color: rgba(20, 87, 244, 0.384);
+    border: 1px solid rgb(20, 87, 244);
+    padding: 12px 15px;
+    border-radius: 7px;
+    transition: .3s;
+    font-size: 20px;
+    font-family: Pokemon;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgb(4, 0, 255);
+
+   }
+   
+.button:hover {
+    border: 1px solid rgb(20, 87, 244);    
+    background-image: url(../Imagenes/landingButton.gif);
+    color: rgb(195, 244, 20);    
+   }
+   
+.button:focus {
+    box-shadow: 0px 0px 0px 5px rgba(20, 87, 244, 0.37), 0px 0px 0px 10px rgba(20, 87, 244, 0.38);
+    outline: none;    
+   }

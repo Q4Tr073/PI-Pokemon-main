@@ -1,0 +1,38 @@
+.card{
+    font-size: 20px;
+    font-family: Pokemon;
+    border: 1px solid rgb(20, 87, 244);
+    border-radius: 30px;
+    padding: 0px 20px;
+    opacity: 70%;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgb(4, 0, 255);
+    box-shadow: 15px 15px 30px #191919,
+              -15px -15px 30px #191919; 
+}
+.card:hover{
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    transform: scale(1);
+    opacity: 100%;
+}
+.img {
+    height: 200px;
+    width: 200px;
+}
+.button {
+    background-color: rgba(20, 87, 244, 0.384);
+    border: 1px solid rgb(20, 87, 244);
+    padding: 2px 10px;
+    border-radius: 7px;
+    transition: .3s;
+    font-size: 20px;
+    font-family: Pokemon;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgb(4, 0, 255);
+}
+.button:hover {
+    border: 1px solid rgb(20, 87, 244);    
+    background-image: url(../../../Imagenes/crea.gif);
+    color: rgb(244, 240, 20);    
+   }
